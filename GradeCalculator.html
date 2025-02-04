@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GradeCalculator</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+      
+        div {
+            text-align: center;
+            margin: 10px;
+        }
+        label {
+            display: inline-block;
+            width: 200px;
+        }
+        input {
+            width: 200px;
+            padding: 5px;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <marquee behavior="scroll" direction="left">Welcome to the Student Grade Calculator!</marquee>
+    <h1 >STUDENT GRADE CALCULATOR</h1>
+    <form action="GradeCalculator.php" method="post">
+    <div>
+        <label for="english">Enter the marks in English:</label>
+        <input type="number" id="english" name="english" required>
+    </div>
+    <div>
+        <label for="maths">Enter the marks in Maths:</label>
+        <input type="number" id="maths" name="maths" required>
+    </div>
+    <div>
+        <label for="socialScience">Enter the marks in Social Science:</label>
+        <input type="number" id="socialScience" name="socialScience" required>
+    </div>
+    <div>
+        <label for="hindi">Enter the marks in Hindi:</label>
+        <input type="number" id="hindi" name="hindi" required>
+    </div>
+    <div>
+        <label for="science">Enter the marks in Science:</label>
+        <input type="number" id="science" name="science" required>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    
+</form>
+    
+</body>
+</html>

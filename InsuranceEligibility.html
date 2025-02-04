@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurrance Elibility Check</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <h1>Do You have a Car?</h1>
+   <form action=""></form>
+
+    <h1>Check Your Insurrance Eligibility</h1>
+    <form action="CarOwnership.php" method="post">
+        <label for="car">Do you own a car?</label><br>
+        <input type="radio" id="yes" name="car" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="car" value="no">
+        <label for="no">No</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="InsuranceEligibility.php" method="post">
+        <label for="age">Enter Your Age:</label>
+        <input type="text" name="age" id="age">
+        <br>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label><br><br>
+  <input type="submit" value="Submit">
+
+    
+</body>
+</html>
