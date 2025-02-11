@@ -17,4 +17,7 @@ else{
 // add Egg
 array_push($cart, "egg");
 print_r($cart);
+echo "Total items".count($cart);
+$item_name=array_keys($cart);
+print_r($item_name);
 ?>
