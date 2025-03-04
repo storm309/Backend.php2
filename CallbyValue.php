@@ -38,12 +38,14 @@
 // echo "nultiplication of 2,3,4,5 is ".multiply(2,3,4,5)."<br>";
 
 //
-$age = array("Peter"=>35, "Ben"=> 37, "Joe"=>25);
-$var = json_encode($age);
-echo $var . "<br>";
-$jsonobj = '{"Raj":99, "Raushan":83, "Akash":57}';
-var_dump(json_decode($var));
-echo "<br>";
-var_dump(json_decode($jsonobj));
+// $age = array("Peter"=>35, "Ben"=> 37, "Joe"=>25);
+// $var = json_encode($age);
+// echo $var . "<br>";
+// $jsonobj = '{"Raj":99, "Raushan":83, "Akash":57}';
+// var_dump(json_decode($var));
+// echo "<br>";
+// var_dump(json_decode($jsonobj));
+
+//
 
 ?>
