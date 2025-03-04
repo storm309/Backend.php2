@@ -3,7 +3,7 @@
 // $str = "<h1> This is a String </h1>";
 // echo filter_var($str, FILTER_SANITIZE_STRING) . "<br>";
 
-$email = "@Rajemail.com";
+$email = "@shivamemail.com";
 if(filter_var($email, FILTER_VALIDATE_EMAIL))
 {
     echo "email $email is valid <br>";
